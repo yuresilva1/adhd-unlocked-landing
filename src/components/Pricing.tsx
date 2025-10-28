@@ -11,8 +11,7 @@ const Pricing = () => {
   ];
 
   const handlePurchase = () => {
-    // This would integrate with your payment processor
-    window.open('https://your-payment-link.com', '_blank');
+    window.open('https://hotm.art/LhcRGx', '_blank');
   };
 
   return (

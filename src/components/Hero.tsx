@@ -33,7 +33,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
             <Button 
-              onClick={scrollToPricing}
+              onClick={() => window.open('https://hotm.art/LhcRGx', '_blank')}
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
             >
