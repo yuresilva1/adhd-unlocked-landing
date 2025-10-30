@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { trackInitiateCheckout } from "@/lib/fbPixel";
 
 const Pricing = () => {
   const features = [
@@ -11,7 +12,13 @@ const Pricing = () => {
   ];
 
   const handlePurchase = () => {
+    trackInitiateCheckout();
     window.open('https://hotm.art/LhcRGx', '_blank');
+  };
+
+  const handlePurchaseES = () => {
+    trackInitiateCheckout();
+    window.open('https://pay.hotmart.com/Q102656094B', '_blank');
   };
 
   return (
@@ -76,7 +83,7 @@ const Pricing = () => {
               Get Instant Access Now - $9.97
             </Button>
             <Button 
-              onClick={() => window.open('https://pay.hotmart.com/Q102656094B', '_blank')}
+              onClick={handlePurchaseES}
               size="lg"
               className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
             >

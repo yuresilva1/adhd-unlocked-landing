@@ -1,7 +1,12 @@
 import { Button } from "@/components/ui/button";
 import bookTabletHero from "@/assets/book-tablet-hero.png";
+import { trackInitiateCheckout } from "@/lib/fbPixel";
 
 const HeroES = () => {
+  const scrollToPricing = () => {
+    trackInitiateCheckout();
+    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary via-primary to-secondary px-4 py-20">
       {/* Decorative background elements */}
@@ -29,7 +34,7 @@ const HeroES = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
             <Button 
-              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={scrollToPricing}
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
             >
