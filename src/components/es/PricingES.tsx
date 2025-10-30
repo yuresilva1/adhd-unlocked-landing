@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { trackInitiateCheckout } from "@/lib/fbPixel";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
 const PricingES = () => {
   const features = [
@@ -13,7 +14,7 @@ const PricingES = () => {
 
   const handlePurchase = () => {
     trackInitiateCheckout();
-    window.open('https://pay.hotmart.com/Q102656094B', '_blank');
+    trackGoogleAdsConversion('https://pay.hotmart.com/Q102656094B');
   };
 
   return (

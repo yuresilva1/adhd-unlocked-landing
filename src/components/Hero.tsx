@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import bookTabletHero from "@/assets/book-tablet-hero.png";
 import { trackInitiateCheckout } from "@/lib/fbPixel";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
 const Hero = () => {
   const scrollToPricing = () => {
     trackInitiateCheckout();
+    trackGoogleAdsConversion();
     document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
   };
 

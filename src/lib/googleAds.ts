@@ -19,12 +19,24 @@ export const trackGoogleAdsEvent = (
   }
 };
 
-export const trackGoogleAdsConversion = (conversionLabel?: string) => {
+export const trackGoogleAdsConversion = (url?: string) => {
+  const callback = function () {
+    if (typeof url !== 'undefined') {
+      window.location.href = url;
+    }
+  };
+
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', 'conversion', {
-      send_to: conversionLabel || 'AW-17679023576',
+      send_to: 'AW-17679023576/WQhZCMf33bYbENj7ge5B',
+      value: 1.0,
+      currency: 'BRL',
+      transaction_id: '',
+      event_callback: callback,
     });
   }
+
+  return false;
 };
 
 export const trackGoogleAdsPurchase = (value: number, currency = 'USD') => {

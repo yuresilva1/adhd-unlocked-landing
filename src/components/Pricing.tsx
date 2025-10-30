@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { trackInitiateCheckout } from "@/lib/fbPixel";
+import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
 const Pricing = () => {
   const features = [
@@ -13,12 +14,12 @@ const Pricing = () => {
 
   const handlePurchase = () => {
     trackInitiateCheckout();
-    window.open('https://hotm.art/LhcRGx', '_blank');
+    trackGoogleAdsConversion('https://hotm.art/LhcRGx');
   };
 
   const handlePurchaseES = () => {
     trackInitiateCheckout();
-    window.open('https://pay.hotmart.com/Q102656094B', '_blank');
+    trackGoogleAdsConversion('https://pay.hotmart.com/Q102656094B');
   };
 
   return (
