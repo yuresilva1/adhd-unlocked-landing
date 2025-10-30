@@ -33,7 +33,9 @@ const HeroES = () => {
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
             >
-              Obtén Tu Copia Ahora - $9.97
+              Obtén Tu Copia Ahora
+              <span className="mx-2 text-muted-foreground line-through">$29.90</span>
+              <span className="font-extrabold">$9.97</span>
             </Button>
             <Button 
               onClick={() => document.getElementById('benefits')?.scrollIntoView({ behavior: 'smooth' })}
