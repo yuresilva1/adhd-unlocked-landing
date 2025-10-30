@@ -29,12 +29,12 @@ const HeroES = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
             <Button 
-              onClick={() => window.open('https://pay.hotmart.com/Q102656094B', '_blank')}
+              onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
             >
-              Obtén Tu Copia Ahora
-              <span className="mx-2 text-muted-foreground line-through">$29.90</span>
+              Obtén Tu Copia Ahora - Solo 
+              <span className="mx-2 line-through">$29.90</span>
               <span className="font-extrabold">$9.97</span>
             </Button>
             <Button 

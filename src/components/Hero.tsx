@@ -33,21 +33,12 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
             <Button 
-              onClick={() => window.open('https://hotm.art/LhcRGx', '_blank')}
+              onClick={scrollToPricing}
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
             >
-              Get Your Copy Now
-              <span className="mx-2 text-muted-foreground line-through">$29.90</span>
-              <span className="font-extrabold">$9.97</span>
-            </Button>
-            <Button 
-              onClick={() => window.open('https://pay.hotmart.com/Q102656094B', '_blank')}
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 shadow-strong transition-smooth"
-            >
-              Comprar en Español
-              <span className="mx-2 text-muted-foreground line-through">$29.90</span>
+              Get Your Copy Now - Only 
+              <span className="mx-2 line-through">$29.90</span>
               <span className="font-extrabold">$9.97</span>
             </Button>
             <Button 
