@@ -34,7 +34,13 @@ const Pricing = () => {
               LIMITED TIME OFFER
             </div>
             <div className="mb-2">
+              <div className="mb-2">
+                <span className="text-2xl md:text-3xl text-muted-foreground line-through">$29.90</span>
+              </div>
               <span className="text-5xl md:text-6xl font-bold text-foreground">$9.97</span>
+              <span className="ml-3 inline-block bg-destructive text-destructive-foreground px-3 py-1 rounded-full text-sm font-semibold">
+                Save 67%
+              </span>
             </div>
             <p className="text-lg text-muted-foreground">
               One-time payment • Instant access • No subscription
