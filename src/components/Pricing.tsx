@@ -75,22 +75,23 @@ const Pricing = () => {
           </div>
 
           {/* CTA Buttons */}
-          <div className="space-y-4">
-            <Button 
-              onClick={handlePurchase}
-              size="lg"
-              className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
-            >
-              Get Instant Access Now - $9.97
-            </Button>
-            <Button 
-              onClick={handlePurchaseES}
-              size="lg"
-              className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
-            >
-              Comprar en Español - $9.97
-            </Button>
-          </div>
+         <div className="space-y-4">
+  <Button 
+    onClick={() => window.open("https://pay.hotmart.com/X102633957N", "_blank")}
+    size="lg"
+    className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
+  >
+    Get Instant Access Now - $9.97
+  </Button>
+
+  <Button 
+    onClick={() => window.open("https://pay.hotmart.com/Q102656094B", "_blank")}
+    size="lg"
+    className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
+  >
+    Comprar en Español - $9.97
+  </Button>
+</div>
 
           {/* Guarantee */}
           <div className="mt-8 p-6 bg-gradient-to-r from-accent/10 to-secondary/10 rounded-xl border-l-4 border-accent">
