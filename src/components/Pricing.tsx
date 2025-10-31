@@ -77,7 +77,7 @@ const Pricing = () => {
           {/* CTA Buttons */}
          <div className="space-y-4">
   <Button 
-    onClick={() => window.open("https://pay.hotmart.com/X102633957N", "_blank")}
+    onClick={() => window.open("https://www.checkout-ds24.com/product/645482", "_blank")}
     size="lg"
     className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
   >
@@ -85,7 +85,7 @@ const Pricing = () => {
   </Button>
 
   <Button 
-    onClick={() => window.open("https://pay.hotmart.com/Q102656094B", "_blank")}
+    onClick={() => window.open("https://www.checkout-ds24.com/product/645482", "_blank")}
     size="lg"
     className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
   >
