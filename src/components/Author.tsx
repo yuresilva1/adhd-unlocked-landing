@@ -1,4 +1,5 @@
 import drElaraVance from "@/assets/dr-elara-vance.png";
+import bookLogo from "@/assets/book-logo.png";
 
 const Author = () => {
   return (
@@ -22,6 +23,11 @@ const Author = () => {
                 src={drElaraVance} 
                 alt="Dr. Elara Vance - Author of ADHD: Chaos or Superpower? - Expert in ADHD research and treatment" 
                 className="relative w-full max-w-md rounded-2xl shadow-strong"
+              />
+              <img 
+                src={bookLogo} 
+                alt="ADHD Book Logo" 
+                className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg z-10"
               />
               <p className="text-center text-muted-foreground text-sm mt-3 italic">
                 * Illustrative image

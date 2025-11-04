@@ -16,58 +16,22 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Contact */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#benefits" className="text-background/80 hover:text-accent transition-smooth">
-                  What You'll Learn
-                </a>
-              </li>
-              <li>
-                <a href="#pricing" className="text-background/80 hover:text-accent transition-smooth">
-                  Get the Book
-                </a>
-              </li>
-              <li>
-                <a href="#author" className="text-background/80 hover:text-accent transition-smooth">
-                  About the Author
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="text-background/80 hover:text-accent transition-smooth">
-                  FAQ
-                </a>
-              </li>
-            </ul>
+            <h4 className="font-semibold text-lg mb-4">Contact</h4>
+            <p className="text-background/80">
+              support@adhdbook.com
+            </p>
           </div>
 
           {/* Legal */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Legal</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="/privacy-policy" className="text-background/80 hover:text-accent transition-smooth">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="/terms-of-service" className="text-background/80 hover:text-accent transition-smooth">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="/refund-policy" className="text-background/80 hover:text-accent transition-smooth">
-                  Refund Policy
-                </a>
-              </li>
-              <li>
-                <a href="mailto:support@adhdbook.com" className="text-background/80 hover:text-accent transition-smooth">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
+            <p className="text-background/80 space-y-2">
+              Privacy Policy<br/>
+              Terms of Service<br/>
+              Refund Policy: 60-Day Money-Back Guarantee
+            </p>
           </div>
         </div>
 

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import bookTabletHero from "@/assets/book-tablet-hero.png";
+import bookLogo from "@/assets/book-logo.png";
 import { trackInitiateCheckout } from "@/lib/fbPixel";
 import { trackGoogleAdsConversion } from "@/lib/googleAds";
 
@@ -63,6 +64,11 @@ const HeroES = () => {
               src={bookTabletHero} 
               alt="TDAH: ¿Caos o Superpoder? - Desbloquea el Potencial Completo de Tu Cerebro por Dra. Elara Vance" 
               className="w-full drop-shadow-2xl animate-float"
+            />
+            <img 
+              src={bookLogo} 
+              alt="ADHD Book Logo" 
+              className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg"
             />
             <p className="text-center text-white/70 text-xs sm:text-sm mt-3 italic">
               * Producto Digital - E-book en PDF

@@ -1,4 +1,5 @@
 import womanReading from "@/assets/woman-reading.png";
+import bookLogo from "@/assets/book-logo.png";
 
 const Benefits = () => {
   const benefits = [
@@ -79,12 +80,19 @@ const Benefits = () => {
         </div>
 
         {/* Image Section */}
-        <div className="mt-16">
-          <img 
-            src={womanReading} 
-            alt="Woman reading ADHD book in a comfortable cafe setting - Start your transformation today" 
-            className="w-full max-w-4xl mx-auto rounded-2xl shadow-strong"
-          />
+        <div className="mt-16 relative">
+          <div className="relative">
+            <img 
+              src={womanReading} 
+              alt="Woman reading ADHD book in a comfortable cafe setting - Start your transformation today" 
+              className="w-full max-w-4xl mx-auto rounded-2xl shadow-strong"
+            />
+            <img 
+              src={bookLogo} 
+              alt="ADHD Book Logo" 
+              className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg"
+            />
+          </div>
         </div>
       </div>
     </section>

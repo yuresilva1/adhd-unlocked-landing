@@ -132,9 +132,6 @@ const PricingES = () => {
 
         {/* Final Push */}
         <div className="text-center mt-12 text-white">
-          <p className="text-xl mb-4">
-            🎯 <strong>Únete a más de 10,000+ lectores</strong> que han transformado su experiencia con el TDAH
-          </p>
           <p className="text-lg text-white/80">
             La pregunta no es "¿Puedo permitirme este libro?" 
             <br />

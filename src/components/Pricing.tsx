@@ -147,9 +147,6 @@ const Pricing = () => {
 
         {/* Final Push */}
         <div className="text-center mt-12 text-white">
-          <p className="text-xl mb-4">
-            🎯 <strong>Join over 10,000+ readers</strong> who have transformed their ADHD journey
-          </p>
           <p className="text-lg text-white/80">
             The question isn't "Can I afford this book?" 
             <br />

@@ -1,4 +1,5 @@
 import bookDesk from "@/assets/book-desk.png";
+import bookLogo from "@/assets/book-logo.png";
 
 const SolutionES = () => {
   return (
@@ -6,12 +7,19 @@ const SolutionES = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="order-2 lg:order-1">
-            <img 
-              src={bookDesk} 
-              alt="TDAH: ¿Caos o Superpoder? libro en escritorio - Guía profesional para desbloquear tu potencial completo" 
-              className="w-full rounded-2xl shadow-strong"
-            />
+          <div className="order-2 lg:order-1 relative">
+            <div className="relative">
+              <img 
+                src={bookDesk} 
+                alt="TDAH: ¿Caos o Superpoder? libro en escritorio - Guía profesional para desbloquear tu potencial completo" 
+                className="w-full rounded-2xl shadow-strong"
+              />
+              <img 
+                src={bookLogo} 
+                alt="ADHD Book Logo" 
+                className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg"
+              />
+            </div>
             <p className="text-center text-muted-foreground text-sm mt-3 italic">
               * Producto Digital - E-book en PDF
             </p>
