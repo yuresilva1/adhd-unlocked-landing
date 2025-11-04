@@ -73,7 +73,7 @@ const FAQ = () => {
         <div className="mt-12 text-center">
           <p className="text-muted-foreground mb-4">Still have questions?</p>
           <a 
-            href="mailto:support@adhdbook.com" 
+            href="mailto:doctoraliaminds@proton.me" 
             className="text-primary hover:text-primary/80 font-semibold underline"
           >
             Contact us directly
