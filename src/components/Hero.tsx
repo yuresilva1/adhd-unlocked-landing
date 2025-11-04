@@ -65,6 +65,9 @@ const Hero = () => {
               alt="ADHD: Chaos or Superpower? - Unlock Your Brain's Full Potential by Dr. Elara Vance" 
               className="w-full drop-shadow-2xl animate-float"
             />
+            <p className="text-center text-white/70 text-xs sm:text-sm mt-3 italic">
+              * Digital Product - PDF E-book
+            </p>
           </div>
         </div>
       </div>

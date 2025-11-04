@@ -23,6 +23,9 @@ const AuthorES = () => {
                 alt="Dra. Elara Vance - Autora de TDAH: ¿Caos o Superpoder? - Experta en investigación y tratamiento del TDAH" 
                 className="relative w-full max-w-md rounded-2xl shadow-strong"
               />
+              <p className="text-center text-muted-foreground text-sm mt-3 italic">
+                * Imagen ilustrativa
+              </p>
             </div>
           </div>
 

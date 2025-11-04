@@ -12,6 +12,9 @@ const SolutionES = () => {
               alt="TDAH: ¿Caos o Superpoder? libro en escritorio - Guía profesional para desbloquear tu potencial completo" 
               className="w-full rounded-2xl shadow-strong"
             />
+            <p className="text-center text-muted-foreground text-sm mt-3 italic">
+              * Producto Digital - E-book en PDF
+            </p>
           </div>
 
           {/* Text Content */}

@@ -64,6 +64,9 @@ const HeroES = () => {
               alt="TDAH: ¿Caos o Superpoder? - Desbloquea el Potencial Completo de Tu Cerebro por Dra. Elara Vance" 
               className="w-full drop-shadow-2xl animate-float"
             />
+            <p className="text-center text-white/70 text-xs sm:text-sm mt-3 italic">
+              * Producto Digital - E-book en PDF
+            </p>
           </div>
         </div>
       </div>

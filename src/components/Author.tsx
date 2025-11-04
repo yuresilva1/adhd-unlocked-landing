@@ -23,6 +23,9 @@ const Author = () => {
                 alt="Dr. Elara Vance - Author of ADHD: Chaos or Superpower? - Expert in ADHD research and treatment" 
                 className="relative w-full max-w-md rounded-2xl shadow-strong"
               />
+              <p className="text-center text-muted-foreground text-sm mt-3 italic">
+                * Illustrative image
+              </p>
             </div>
           </div>
 

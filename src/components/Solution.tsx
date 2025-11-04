@@ -12,6 +12,9 @@ const Solution = () => {
               alt="ADHD: Chaos or Superpower? book on desk - Professional guide for unlocking your full potential" 
               className="w-full rounded-2xl shadow-strong"
             />
+            <p className="text-center text-muted-foreground text-sm mt-3 italic">
+              * Digital Product - PDF E-book
+            </p>
           </div>
 
           {/* Text Content */}

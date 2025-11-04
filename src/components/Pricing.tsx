@@ -9,7 +9,7 @@ const Pricing = () => {
     "Compatible with Kindle, tablets, and all devices",
     "Lifetime access - read it anytime, anywhere",
     "Bonus: Personalized action plan templates",
-    "30-day 100% money-back guarantee"
+    "60-day 100% money-back guarantee"
   ];
 
   const handlePurchase = () => {
@@ -104,7 +104,7 @@ const Pricing = () => {
                   Your Satisfaction is 100% Guaranteed!
                 </p>
                 <p className="text-muted-foreground">
-                  Try the book risk-free for 30 days. If you don't find it valuable, 
+                  Try the book risk-free for 60 days. If you don't find it valuable, 
                   we'll refund every penny. No questions asked.
                 </p>
               </div>
@@ -112,18 +112,35 @@ const Pricing = () => {
           </div>
 
           {/* Trust Badges */}
-          <div className="mt-8 flex justify-center items-center gap-8 text-muted-foreground text-sm">
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
-              </svg>
-              <span>Secure Payment</span>
+          <div className="mt-8 space-y-4">
+            <div className="flex justify-center items-center gap-8 text-muted-foreground text-sm flex-wrap">
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
+                </svg>
+                <span>Secure Payment</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
+                </svg>
+                <span>Instant Delivery</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
+                </svg>
+                <span>Digistore24 Trusted</span>
+              </div>
             </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
-              </svg>
-              <span>Instant Delivery</span>
+            
+            {/* Digistore24 Badge */}
+            <div className="flex justify-center">
+              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 px-6 py-3 rounded-lg border border-primary/20">
+                <p className="text-sm text-foreground font-medium text-center">
+                  🔒 Secure checkout powered by <span className="font-bold text-primary">Digistore24</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
