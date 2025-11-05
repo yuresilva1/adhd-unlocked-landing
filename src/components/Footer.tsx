@@ -16,11 +16,10 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Contact</h4>
             <p className="text-background/80">
-              support@adhdbook.com
+              egdigital-suporte@proton.me
             </p>
           </div>
 

@@ -16,11 +16,10 @@ const FooterES = () => {
             </p>
           </div>
 
-          {/* Contacto */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Contacto</h4>
             <p className="text-background/80">
-              support@adhdbook.com
+              egdigital-suporte@proton.me
             </p>
           </div>
 
