@@ -1,5 +1,4 @@
 import audienceStages from "@/assets/audience-stages.png";
-import bookLogo from "@/assets/book-logo.png";
 
 const Problem = () => {
   const problems = [
@@ -53,12 +52,10 @@ const Problem = () => {
               alt="ADHD affects children, teenagers, and adults - Young minds, teenage struggles, adult triumphs" 
               className="w-full rounded-2xl shadow-strong"
             />
-            <img 
-              src={bookLogo} 
-              alt="ADHD Book Logo" 
-              className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg"
-            />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>
+            <p className="text-center text-muted-foreground text-sm mt-3 italic">
+              * Digital Product - PDF E-book
+            </p>
           </div>
         </div>
       </div>

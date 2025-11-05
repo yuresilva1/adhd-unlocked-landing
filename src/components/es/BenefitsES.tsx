@@ -1,5 +1,4 @@
 import womanReading from "@/assets/woman-reading.png";
-import bookLogo from "@/assets/book-logo.png";
 
 const BenefitsES = () => {
   const benefits = [
@@ -81,18 +80,14 @@ const BenefitsES = () => {
 
         {/* Image Section */}
         <div className="mt-16 relative">
-          <div className="relative">
-            <img 
-              src={womanReading} 
-              alt="Mujer leyendo libro de TDAH en un café cómodo - Comienza tu transformación hoy" 
-              className="w-full max-w-4xl mx-auto rounded-2xl shadow-strong"
-            />
-            <img 
-              src={bookLogo} 
-              alt="ADHD Book Logo" 
-              className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg"
-            />
-          </div>
+          <img 
+            src={womanReading} 
+            alt="Mujer leyendo libro de TDAH en un café cómodo - Comienza tu transformación hoy" 
+            className="w-full max-w-4xl mx-auto rounded-2xl shadow-strong"
+          />
+          <p className="text-center text-muted-foreground text-sm mt-3 italic">
+            * Producto Digital - E-book en PDF
+          </p>
         </div>
       </div>
     </section>

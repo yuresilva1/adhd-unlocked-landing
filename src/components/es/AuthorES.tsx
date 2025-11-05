@@ -1,5 +1,4 @@
 import drElaraVance from "@/assets/dr-elara-vance.png";
-import bookLogo from "@/assets/book-logo.png";
 
 const AuthorES = () => {
   return (
@@ -23,11 +22,6 @@ const AuthorES = () => {
                 src={drElaraVance} 
                 alt="Dra. Elara Vance - Autora de TDAH: ¿Caos o Superpoder? - Experta en investigación y tratamiento del TDAH" 
                 className="relative w-full max-w-md rounded-2xl shadow-strong"
-              />
-              <img 
-                src={bookLogo} 
-                alt="ADHD Book Logo" 
-                className="absolute top-4 right-4 w-16 h-16 sm:w-20 sm:h-20 drop-shadow-lg z-10"
               />
               <p className="text-center text-muted-foreground text-sm mt-3 italic">
                 * Imagen ilustrativa

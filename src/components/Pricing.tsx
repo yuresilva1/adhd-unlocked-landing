@@ -74,24 +74,14 @@ const Pricing = () => {
             ))}
           </div>
 
-          {/* CTA Buttons */}
-         <div className="space-y-4">
-  <Button 
-    onClick={() => window.open("https://www.checkout-ds24.com/product/645482", "_blank")}
-    size="lg"
-    className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
-  >
-    Get Instant Access Now - $9.97
-  </Button>
-
-  <Button 
-    onClick={() => window.open("https://www.checkout-ds24.com/product/645482", "_blank")}
-    size="lg"
-    className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
-  >
-    Comprar en Español - $9.97
-  </Button>
-</div>
+          {/* CTA Button */}
+          <Button 
+            onClick={() => window.open("https://pay.hotmart.com/X102633957N", "_blank")}
+            size="lg"
+            className="w-full bg-gradient-cta hover:opacity-90 text-accent-foreground font-bold text-xl py-8 shadow-strong transition-smooth"
+          >
+            Get Instant Access Now - $9.97
+          </Button>
 
           {/* Guarantee */}
           <div className="mt-8 p-6 bg-gradient-to-r from-accent/10 to-secondary/10 rounded-xl border-l-4 border-accent">
@@ -112,7 +102,7 @@ const Pricing = () => {
           </div>
 
           {/* Trust Badges */}
-          <div className="mt-8 space-y-4">
+          <div className="mt-8">
             <div className="flex justify-center items-center gap-8 text-muted-foreground text-sm flex-wrap">
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -125,21 +115,6 @@ const Pricing = () => {
                   <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
                 </svg>
                 <span>Instant Delivery</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" />
-                </svg>
-                <span>Digistore24 Trusted</span>
-              </div>
-            </div>
-            
-            {/* Digistore24 Badge */}
-            <div className="flex justify-center">
-              <div className="bg-gradient-to-r from-primary/10 to-secondary/10 px-6 py-3 rounded-lg border border-primary/20">
-                <p className="text-sm text-foreground font-medium text-center">
-                  🔒 Secure checkout powered by <span className="font-bold text-primary">Digistore24</span>
-                </p>
               </div>
             </div>
           </div>
